@@ -1,0 +1,13 @@
+/* Navbar css */
+
+.navbar-nav a {
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+/* product card css*/ 
+.product-card a,
+.product-card a:hover{
+    text-decoration: none;
+    color: inherit;
+}
