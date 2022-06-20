@@ -7,7 +7,6 @@ const ProductPage = () => {
     const { id } = useParams();
     const { data: product, error, loading } = useFetch(`https://fakestoreapi.com/products/${id}`)
     const navigate = useNavigate();
-    
     return (
         <div>
             {error && <div>could not fetch data of that resource</div>}

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ProductCard = ({ data }) => {
-
     return (
         <div className='product-card d-flex .flex-row flex-wrap justify-content-evenly'>
             {data.map((product) => (
